@@ -13,7 +13,6 @@ Data Quality Check: Quality checks are performed on the extracted data to ensure
 2) Data Quality Check: Notebooks for performing data quality checks on the extracted data.
 3) Transformation: Notebooks for transforming the data as per the project requirements.
 4) Modeling: Notebooks for modeling the data and creating visualizations.
-5) 
 # Getting Started
 To get started with the project:
 - Clone this repository to your local machine.
@@ -22,8 +21,13 @@ To get started with the project:
 # Dependencies
 The project relies on the following dependencies:
 Python 3.x
+
 Jupyter Notebook
+
 pandas
+
 numpy
+
 matplotlib
+
 seaborn
