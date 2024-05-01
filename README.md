@@ -1,4 +1,4 @@
-# ETL Project
+# Python ETL Project
 This repository contains the code and documentation for an ETL (Extract, Transform, Load) project using python. The project involves extracting data from various sources, transforming it to meet specific requirements, and loading it into a target destination.
 
 # Overview
