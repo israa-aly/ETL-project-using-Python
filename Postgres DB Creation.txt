@@ -1,0 +1,34 @@
+CREATE TABLE orders(
+    order_id INTEGER,
+    customer_id INTEGER,
+    order_status INTEGER,
+    order_date date,
+    required_date date,
+    shipped_date varchar(255),
+    store_id integer,
+	staff_id integer
+);
+
+
+
+COPY orders(order_id,customer_id,order_status,order_date,required_date,shipped_date,store_id,staff_id
+)
+FROM '/orders/orders.csv'
+DELIMITER ','
+CSV HEADER;
+
+CREATE TABLE order_items(
+    order_id varchar(255),
+    item_id varchar(255),
+    product_id INTEGER,
+    quantity integer,
+    list_price float,
+    discount float
+    
+);
+drop table order_items;
+COPY order_items(order_id,item_id,product_id,quantity,list_price,discount
+)
+FROM '/orders/order_items.csv'
+DELIMITER ','
+CSV HEADER;
